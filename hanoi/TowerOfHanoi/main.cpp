@@ -9,8 +9,7 @@ int fun(int x, int n) {
     if (n == 0) {
         return 1;
     }
-    cout << "                      x=  " << x << "                      n= " << n
-         << "                     计数= " << ++funCnts << endl;
+    cout << "    x=  " << x << "                      n= " << n << "                     计数= " << ++funCnts << endl;
     if (n % 2 == 1) {
         return fun(x, n / 2) * fun(x, n / 2) * x;
     }
